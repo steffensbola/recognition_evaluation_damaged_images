@@ -1,0 +1,2 @@
+# recognition_evaluation_damaged_images
+Code and data for Can Exposure, Noise and Compression affect Image Recognition? An Assessment of the Impacts on State-of-the-art ConvNets, by Cristiano Rafael Steffens, Lucas Ricardo Vieira Messias, Paulo Lilles Jorge Drews-Jr, and Silvia Silva da costa Botelho; published in 2019 Latin American Robotics Symposium (LARS), 2019 Brazilian Symposium on Robotics (SBR) and 2019 Workshop on Robotics in Education (WRE)
