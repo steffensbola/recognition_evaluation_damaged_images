@@ -19,3 +19,60 @@ This repo contains code and data to reproduce the results shown in:
 ```
 
 All results were obtained using Keras 2.2.4 and Tensorflow 1.14. Image loading, resizing, and colorspace transformations were performed using Scikit-Image. For further details please refer to the presentation [https://www.slideshare.net/steffensbola/can-exposure-noise-and-compression-affect-image-recognition-an-assessment-of-the-impacts-on-stateoftheart-convnets] or to the original paper.
+
+### Example results for distinc miss-exposure and noise conditions (Confusion-matrix 1000 classes)
+
+#### Original
+
+![alt text](cm/___xception_Xception_cm.jpg "original")
+
+#### Overcompressed
+
+![alt text](cm/__compression_xception_Xception_cm.jpg "compression")
+
+#### Gamma 1/2
+
+![alt text](cm/__gamma12_xception_Xception_cm.jpg "gamma 1/2")
+
+#### Gamma 1/4
+![alt text](cm/__gamma14_xception_Xception_cm.jpg "gamma 1/4")
+
+#### Gamma 1/8
+
+![alt text](cm/__gamma18_xception_Xception_cm.jpg "gamma 1/8")
+
+#### Gamma 2
+
+![alt text](cm/__gamma2_xception_Xception_cm.jpg "gamma 2")
+
+#### Gamma 4
+
+![alt text](cm/__gamma4_xception_Xception_cm.jpg "gamma 4")
+
+#### Gamma 8
+
+![alt text](cm/__gamma8_xception_Xception_cm.jpg "gamma 8")
+
+#### Gaussian noise
+
+![alt text](cm/__gauss_xception_Xception_cm.jpg "gaussian noise")
+
+#### Poisson Noise
+
+![alt text](cm/__poisson_xception_Xception_cm.jpg "poisson noise")
+
+#### Saturation (25% of the pixels)
+
+![alt text](cm/__saturate_p25_xception_Xception_cm.jpg "pixel value truncation top")
+
+#### Salt and pepper noise
+
+![alt text](cm/__snp_xception_Xception_cm.jpg "salt and pepper")
+
+#### Speckle noise
+
+![alt text](cm/__speckle_xception_Xception_cm.jpg "speckle noise")
+
+#### Under-exposure (25% of the pixels are 0 in at least one color channel)
+
+![alt text](cm/__underexpose_p25_xception_Xception(in_cm.jpg "pixel value truncation bottom")
